@@ -3,7 +3,9 @@
   "resourceVersion": "1.6",
   "name": "Padel-Panic",
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"spr_florian","path":"sprites/spr_florian/spr_florian.yy",},"order":0,},
+    {"id":{"name":"obj_florian","path":"objects/obj_florian/obj_florian.yy",},"order":0,},
+    {"id":{"name":"rm_malteseroads","path":"rooms/rm_malteseroads/rm_malteseroads.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Android","path":"options/android/options_android.yy",},
@@ -23,7 +25,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_malteseroads","path":"rooms/rm_malteseroads/rm_malteseroads.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
