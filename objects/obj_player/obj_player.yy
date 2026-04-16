@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_florian",
+  "name": "obj_player",
   "spriteId": {
     "name": "spr_florian",
     "path": "sprites/spr_florian/spr_florian.yy",
