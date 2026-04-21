@@ -16,7 +16,7 @@ if (is_spawner) {
     }
 }
 else {
-    y -= (obj_game.KMH + 4);
+    y -= (12 - obj_game.KMH);
 
     if (y < -200) {
         instance_destroy();
