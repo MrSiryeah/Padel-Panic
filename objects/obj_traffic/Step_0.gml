@@ -5,8 +5,8 @@ if (is_spawner) {
     spawn_timer += 1;
 
     if (spawn_timer >= spawn_delay) {
-        spawn_timer = 0;
-        spawn_delay = irandom_range(90, 150);
+        spawn_timer = 5;
+        spawn_delay = irandom_range(50, 300);
 
         var car = instance_create_depth(x, room_height + 80, -100, obj_traffic);
 
