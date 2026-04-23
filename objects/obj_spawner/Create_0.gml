@@ -2,4 +2,5 @@
 // You can write your code in this editor
 
 dir = -1;
-image_speed = 0;
+
+alarm[0] = 10;
