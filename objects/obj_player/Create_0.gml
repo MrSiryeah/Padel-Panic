@@ -12,3 +12,6 @@ flash_timer = 0;
 
 // How strongly the player is pushed away from cars
 crash_push = 12;
+
+// Make sure the player is drawn above roads and traffic
+depth = -100;
