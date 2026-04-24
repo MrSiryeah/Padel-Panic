@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_spawner",
+  "name": "obj_spawner_down",
   "spriteId": {
     "name": "spr_spawner_icon",
     "path": "sprites/spr_spawner_icon/spr_spawner_icon.yy",

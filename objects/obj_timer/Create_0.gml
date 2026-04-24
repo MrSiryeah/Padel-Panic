@@ -1,2 +1,2 @@
-timer_seconds = 60;
+timer_seconds = 40;
 timer_frames = timer_seconds * room_speed;

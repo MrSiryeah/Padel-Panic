@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_spawner",
+  "name": "obj_traffic_down",
   "spriteId": {
-    "name": "spr_spawner_icon",
-    "path": "sprites/spr_spawner_icon/spr_spawner_icon.yy",
+    "name": "spr_traffic_down",
+    "path": "sprites/spr_traffic_down/spr_traffic_down.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,7 +27,6 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
