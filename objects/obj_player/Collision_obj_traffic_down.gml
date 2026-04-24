@@ -3,13 +3,23 @@
 
 // Collision with downward traffic car
 
-// Only take damage if cooldown is finished
+// Push only horizontally, not vertically
+if (x < other.x)
+{
+    x -= crash_push; // Push player left
+}
+else
+{
+    x += crash_push; // Push player right
+}
+
+// Only remove time if cooldown is finished
 if (hit_cooldown <= 0)
 {
-    // Remove 5 seconds from the timer
+    // Remove 5 seconds from timer
     obj_timer.timer_frames -= 5 * room_speed;
 
-    // Make sure the timer does not go below 0
+    // Stop timer going below 0
     if (obj_timer.timer_frames < 0)
     {
         obj_timer.timer_frames = 0;
